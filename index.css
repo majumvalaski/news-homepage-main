@@ -9,13 +9,21 @@
     padding:0px;
     margin:0px;
 }
-li {
+ul {
     margin: 20px 10px 20px 10px;
     list-style: none;
     text-align: right;
     
 }
-ul {
+li {
     display: inline-block;
     margin: 30px;
+    
+}
+.botao {
+    border: none;
+    background-color: white;
+    color: gray;
+    font-family: Inter;
+    font-weight: 400;
 }
