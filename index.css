@@ -36,3 +36,25 @@ li {
     width:860px;
     height:350px;
 }
+.boxPreta h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size:35px;
+    color: hsl(35, 77%, 62%);
+}
+.boxPreta h2{
+    font-family: Inter;
+    font-weight: 700;
+    color: hsl(36, 100%, 99%)
+    font-size: 16px;
+}
+.boxPreta {
+    background-color: black;
+    border-radius: 2px;
+    font-size: 14px;
+    color:hsl(36, 100%, 99%);
+    font-family: Inter;
+    font-weight: 400px;
+    width: 400px;
+    padding:20px;
+}
