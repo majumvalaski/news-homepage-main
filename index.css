@@ -10,7 +10,7 @@
     margin:0px;
 }
 ul {
-    margin: 20px 10px 20px 10px;
+    margin: 20px 50px 20px 10px;
     list-style: none;
     text-align: right;
     
@@ -26,4 +26,8 @@ li {
     color: gray;
     font-family: Inter;
     font-weight: 400;
+}
+#logo {
+    margin-right: 700px;
+    text-align: left;
 }
