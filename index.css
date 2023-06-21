@@ -58,3 +58,32 @@ li {
     width: 400px;
     padding:20px;
 }
+.linha2{
+    margin-left: 60px;
+    display: inline-block;
+    height:fit-content;
+}
+.titulo {
+    font-family: Inter;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+    font-size: 30px;
+    text-align: left;
+}
+.texto {
+    font-family: Inter;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+    font-size: 18px;
+    padding: 20px;
+}
+.botao1 {
+    font-family: Inter;
+    font-weight: 400;
+    color: hsl(36, 100%, 99%);
+    font-size: 18px;
+    border:none;
+    background-color: hsl(5, 85%, 63%);
+    padding:10px;
+    margin-top: 25px;
+}
