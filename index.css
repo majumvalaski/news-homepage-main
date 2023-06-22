@@ -9,6 +9,14 @@
     padding:0px;
     margin:0px;
 }
+section {
+    width: 1440px;
+}
+@media(max-width:375px){
+    section{
+        width: 375px;
+    }
+}
 ul {
     margin: 20px 50px 20px 10px;
     list-style: none;
@@ -45,7 +53,7 @@ li {
 .boxPreta h2{
     font-family: Inter;
     font-weight: 700;
-    color: hsl(36, 100%, 99%)
+    color: hsl(36, 100%, 99%);
     font-size: 16px;
 }
 .boxPreta {
