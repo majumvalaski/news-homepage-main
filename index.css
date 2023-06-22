@@ -5,111 +5,63 @@
     color: hsl(228, 45%, 44%); 
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
 * {
-    padding:0px;
-    margin:0px;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
 }
-section {
-    width: 1440px;
-}
-@media(max-width:375px){
-    section{
-        width: 375px;
-    }
+img{ 
+    max-width: 100%;
+    width: 100%;
 }
 ul {
-    margin: 20px 50px 20px 10px;
     list-style: none;
-    text-align: right;
-    
 }
-li {
-    display: inline-block;
-    margin: 30px;
-    
-}
-.botao {
-    border: none;
-    background-color: white;
-    color: gray;
-    font-family: Inter;
-    font-weight: 400;
-}
-#logo {
-    margin-right: 700px;
-    text-align: left;
-}
-.imagemAzul {
-    margin-left: 60px;
-    width:860px;
-    height:350px;
-}
-.boxPreta h1{
-    font-family: Inter;
-    font-weight: 700;
-    font-size:35px;
-    color: hsl(35, 77%, 62%);
-    padding-top: 0%;
-}
-.boxPreta h2{
-    font-family: Inter;
-    font-weight: 700;
-    color: hsl(36, 100%, 99%);
-    font-size: 16px;
-}
-.boxPreta {
-    background-color: black;
-    border-radius: 2px;
-    font-size: 14px;
-    color:hsl(36, 100%, 99%);
-    font-family: Inter;
-    font-weight: 400px;
-    padding:20px;
-    margin-bottom: 20px;
-    width: 330px;
-    height: 500px;
-}
-.linha2{
-    margin-left: 60px;
-    display: flex;
-    height:fit-content;
-    align-items: flex-start;
-}
-.titulo {
-    font-family: Inter;
-    font-weight: 800;
-    color: hsl(240, 100%, 5%);
-    font-size: 30px;
-    text-align: left;
-    margin-bottom: 20px;
-}
-.texto {
-    font-family: Inter;
-    font-weight: 400;
+p {
+    line-height: 1.8;
     color: hsl(236, 13%, 42%);
-    font-size: 18px;
-    padding: 20px;
-    margin-bottom: 20px;
 }
-.botao1 {
-    font-family: Inter;
-    font-weight: 400;
-    color: hsl(36, 100%, 99%);
-    font-size: 18px;
-    border:none;
-    background-color: hsl(5, 85%, 63%);
-    padding:10px;
-    margin-top: 25px;
+html {
+    font-size: 15px;
 }
-.imagens {
+.header {
     display: flex;
+    align-items:center;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 30px;
+    padding:1.25rem;
+}
+.header nav {
+    display:none;
+}
+.showcase {
+    padding: 1.25rem;
+    padding-top: 0;
 }
 
-.n1,
-.n2,
-.n3 {
-    width: calc(33.33% - 10px);
+.showcase h1 {
+    font-size: 2rem;
+    color: hsl(240, 100%, 5%);
+    margin-top: 1rem 0;
+}
+
+.showcase div:first-child article p {
+    margin-bottom: 1rem;
+}
+
+.showcase div:first-child button {
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight:700;
+}
+.showcase div:last-child {
+    background-color: hsl(240,100%, 5%);
 }
