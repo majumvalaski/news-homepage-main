@@ -65,7 +65,7 @@ html {
 .showcase > div:last-child {
     background-color: hsl(240,100%, 5%);
     margin-top: 2rem;
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 0;
 }
 
 .showcase > div:last-child h2{
@@ -84,4 +84,29 @@ html {
 .showcase > div:last-child h3:hover{
     color: hsl(35, 77%, 62%);
     cursor: pointer;
+}
+.cards {
+    padding: 1.25rem;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:1.25rem;
+}
+.cards article{
+    display:flex; /*side by side */
+    align-items: center;
+    gap: 1.25rem;
+}
+.cards article img{
+    width: 150px;
+}
+.cards article span {
+    color: hsl(236, 13%, 42%);
+    font-weight: 800;
+    font-size:2rem;
+    opacity: 75%;
+}
+.cards article h4{
+    font-size:1.25rem;
+    color:hsl(240, 100%, 5%);
+    margin: 1rem 0;
 }
