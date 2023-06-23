@@ -140,7 +140,7 @@ body{
         padding:2rem 1.25rem;
     }
     .showcase{
-        display: flexbox;
+        display: flex;
         gap: 2rem;
     }
     .showcase h1 {
