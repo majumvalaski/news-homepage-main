@@ -70,13 +70,17 @@ html {
 
 .showcase > div:last-child h2{
     color: hsl(35, 77%, 62%);
-    margin-bottom: 1 rem;
+}
+.showcase > div:last-child article{
+    padding: 1.25rem 0 ;
+}
+.showcase > div:last-child article:not(:last-child){
+    border-bottom: 1px solid hsl(236, 13%, 42%);
 }
 .showcase > div:last-child h3 {
     color: #fff;
     margin-bottom:0.5rem;
 }
-
 .showcase > div:last-child h3:hover{
     color: hsl(35, 77%, 62%);
     cursor: pointer;
