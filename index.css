@@ -47,13 +47,14 @@ body{
     outline:none;
     position: absolute;
     right:1.25rem;
+    top:1.25rem;
     z-index: index 99999;
     cursor:pointer;
 }
 .header nav {
     opacity:0; /* para nao aparecer caso nao clique no menu */
     z-index: -9999;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .header nav.open {
     background-color: #fff;
@@ -178,6 +179,31 @@ body{
 @media(min-width:1024px){
     .header{
         padding:2rem 1.25rem;
+    }
+    .header nav{
+        opacity:1;
+        z-index:auto;
+    }
+    .header nav.open {
+        position:relative;
+        width:auto;
+        background-color:transparente;
+        padding:0;
+        z-index:auto;
+    }
+    .header nav #menu-close{
+        display:none;
+    }
+    .header nav ul {
+        position:relative;
+        top:0;
+        transform: translateY(0%);
+        display:flexbox;
+        
+
+    }
+    .header nav ul li {
+        margin:0;
     }
     .header .menu-button button{
         display:none;
